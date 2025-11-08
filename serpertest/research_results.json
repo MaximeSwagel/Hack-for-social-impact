@@ -1,0 +1,473 @@
+{
+    "search_metadata": {
+        "id": "690fb6bcbca7e548742b13c6",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/80a26e432aa60f70/690fb6bcbca7e548742b13c6.json",
+        "pixel_position_endpoint": "https://serpapi.com/searches/80a26e432aa60f70/690fb6bcbca7e548742b13c6.json_with_pixel_position",
+        "created_at": "2025-11-08 21:31:40 UTC",
+        "processed_at": "2025-11-08 21:31:40 UTC",
+        "google_url": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&oq=Youth+Homeless+Shelters+near+me&uule=w+CAIQICImU2FuIEZyYW5jaXNjbyxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/80a26e432aa60f70/690fb6bcbca7e548742b13c6.html",
+        "total_time_taken": 4.53
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "Youth Homeless Shelters near me",
+        "location_requested": "San Francisco, California, United States",
+        "location_used": "San Francisco,California,United States",
+        "google_domain": "google.com",
+        "hl": "en",
+        "gl": "us",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "Youth Homeless Shelters near me",
+        "total_results": 18900000,
+        "time_taken_displayed": 0.34,
+        "organic_results_state": "Results for exact spelling"
+    },
+    "local_map": {
+        "image": "https://www.google.com/maps/vt/data=7LJcZycewtzEUYGWgr-DxdGzirHwkWV3h5BKVoVrHpXmdwhQKlaEVT-d5pE2DE5nWbvs9r9nsyqun81L-AMq_ETZNm7zKrS8jTLn5a0MatGEi3mqs6aQoH-vw5-08nrOeSlcpqiv-peHcYs5o1HW_5-rCrYwkQz6p1S1xlla0V4-bD7dglu7ZasLs1LzitWa88nwxOXyJhsuNh6w5dbY7VAjk2UprFe-UupSZBoWTk3sX8jD-kTd2bIeEXt1JXyRhYRZ_pyL23FOLtqh8-wncaGkhboboY05hFCVC38OzmhbXIZOnacwS4i_9lkRak38Q2EepLpldjEaDI8LzZvX5_v6-97CwRvl0tglHoJ-Of0vptgEHhon9RU_dzPlnaSvjlR822J1EBRt4E_PEfNfgV4evKG1jiFC_1eiLePSDlOdWdo83WKA1muSrwrPhueQKHbvMNUyxwesy2tG_GqLTtZ3-zHnPiuWhOHZpIlP5S0gUHlgJfq1aOGn2QIGc-bdMIjFJi16NyNw3Pse9jbQbYXoF9qL1c-gGOwWC4szkZHl6BxxP3TneNfZDq72zTlWTtOu5I9DChzS49KXcV6ZJMoih9sy6V-D72jqym2-kCZ4nUne4-2SijIx8qyiI1-IBd1-Zm9Fg_WPKjKOR1Tnc9LrL5b29uArFYeDKbi65gsEiDkIAEttsohG7jSDU5YOjxX9p1G1KhgyNp8ml6w6spBOHOgVvqrb_6hpriGmiwGOjFuJ2E4236GK9BIAOgqz-tUiTQDk_PFXp1frp7CzzgZ_nF0kuHkZMYzzAJUU3bn4YjtT7IvbuVsxFwPgGWv1YQyRfFsSeaHlB55qBRj5Z_iQ8v53kwfu4TvfMu_jqcVFieMis-K2nqveUze_vCTtUgsvc1ehBr7mfqkCY0T_oHhWHyyG7CwCkmK4wWlpAqkoDDAb3g0ItrU1thiLDsdwS3wP-uez7t50HRJPhBpW7rBmuK8GVwxWEpTJgqCe89WNay3dj11FMbm8GtUbIz4tbw2QEKNRRGdUm1S1X9LmS3rcPWNDNYlL1HRYYE8toQg3aQkv4QkdBgT1tE4H4W9-xOxG9e8sMH3acgmuo-wqo1EGIn4sQZf1tdRzi-6MBobbZaolmtUuzFjIlFhzMYvnPXQmgf3SD52yV-1YXdshjQQifNAAtA2TjwsbrTmYDGEaPsm7hT0VhR9_1f2Z8Osqjm5dDpMVIQXN6Q2cTDSmLg_gku9mG5D-X3aTFdyPDaS6DYdVwMaf65Yaru-MWbHw7L_izIsPMvu4LGKtcOJ3bmMwBoaolQi8weTDtGCbJ3eOnmutaiOTnVbcE-oXZA7ZT8KKvsOu-TioonyyUI7jVyJrS6pMB-9FLrmX3nK-C32Rt_JUZivS-goLEOwlL8M8YoOgfECUtDKThZPYHYHGEfyATPz5UUVs7FHkeJlnYMFXt5ph_7_RgP4",
+        "gps_coordinates": {
+            "latitude": 37.77994128,
+            "longitude": -122.3468399
+        }
+    },
+    "local_results": {
+        "places": [
+            {
+                "position": 1,
+                "rating": 3.5,
+                "reviews": 19,
+                "reviews_original": "(19)",
+                "lsig": "AB86z5UGo2zJh2TlFrdy_6bG9EIt",
+                "links": {
+                    "directions": "https://www.google.com/maps/dir//Lark+-+Inn+for+Youth,+869+Ellis+St,+San+Francisco,+CA+94109/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x808580971dc2d9c7:0x3f23fb3f0b5452f8?sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q48ADegQIHBAA&hl=en&gl=us"
+                },
+                "place_id": "4549756296765919992",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&ludocid=4549756296765919992&q=Youth+Homeless+Shelters+near+me",
+                "gps_coordinates": {
+                    "latitude": 37.78367,
+                    "longitude": -122.42025
+                },
+                "title": "Lark - Inn for Youth",
+                "type": "Social services organization",
+                "phone": "(800) 447-8223",
+                "address": "869 Ellis St",
+                "hours": "Open \u22c5 Closes 5 PM"
+            },
+            {
+                "position": 2,
+                "rating": 5.0,
+                "reviews": 1,
+                "reviews_original": "(1)",
+                "lsig": "AB86z5U_f-G-AD3XCZr6YuhzmOGX",
+                "links": {
+                    "website": "https://stayoverprogram.com/",
+                    "directions": "https://www.google.com/maps/dir//Stay+Over+Program,+938+Valencia+St,+San+Francisco,+CA+94110/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x808f7fd00f746771:0x99504f7253481f59?sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q48ADegQIGxAA&hl=en&gl=us"
+                },
+                "place_id": "11047417238381928281",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&ludocid=11047417238381928281&q=Youth+Homeless+Shelters+near+me",
+                "gps_coordinates": {
+                    "latitude": 37.757835,
+                    "longitude": -122.42139
+                },
+                "title": "Stay Over Program",
+                "type": "Shelter",
+                "phone": "(628) 266-5096",
+                "address": "938 Valencia St",
+                "hours": "Open \u22c5 Closes 8:30 PM"
+            },
+            {
+                "position": 3,
+                "rating": 3.6,
+                "reviews": 198,
+                "reviews_original": "(198)",
+                "description": "\"Saved my life\"",
+                "lsig": "AB86z5VmNN5HyeSNntSi_2mdD97l",
+                "links": {
+                    "website": "http://svdp-sf.org/what-we-do/msc-shelter/",
+                    "directions": "https://www.google.com/maps/dir//MSC+Homeless+Shelter,+525+5th+St,+San+Francisco,+CA+94107/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x808f7fd55e5937c9:0x493b461f65ca0ae5?sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q48ADegQIGhAA&hl=en&gl=us"
+                },
+                "place_id": "5276888489060338405",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&ludocid=5276888489060338405&q=Youth+Homeless+Shelters+near+me",
+                "gps_coordinates": {
+                    "latitude": 37.7778,
+                    "longitude": -122.39981
+                },
+                "title": "MSC Homeless Shelter",
+                "type": "Homeless shelter",
+                "phone": "(415) 597-7960",
+                "address": "525 5th St",
+                "hours": "Open 24 hours"
+            }
+        ],
+        "more_locations_link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&tbm=lcl&q=Youth+Homeless+Shelters+near+me&rflfq=1&num=10&uule=w+CAIQICImU2FuIEZyYW5jaXNjbyxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QjGp6BAgkEAA"
+    },
+    "related_questions": [
+        {
+            "question": "Can minors stay in homeless shelters?",
+            "type": "featured_snippet",
+            "snippet": "Several state legislatures have recognized that unaccompanied homeless youth under age 18 need legal rights to access housing, shelter, and other basic services. States can provide critical protections, such as empowering minors experiencing homelessness to enter into contracts and to consent to shelter services.",
+            "title": "State Laws on Minor Consent for Housing and Related Services",
+            "link": "https://schoolhouseconnection.org/article/state-laws-on-minor-consent-for-housing-and-related-services#:~:text=Several%20state%20legislatures%20have%20recognized,to%20consent%20to%20shelter%20services.",
+            "displayed_link": "https://schoolhouseconnection.org \u203a article \u203a state-laws-o...",
+            "source_logo": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/85383076bc3a1619325604864c003f25ae3b7eb39cabc06b29b30294f3851361.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiQ2FuIG1pbm9ycyBzdGF5IGluIGhvbWVsZXNzIHNoZWx0ZXJzPyIsImxrIjoiR2lSallXNGdiV2x1YjNKeklITjBZWGtnYVc0Z2FHOXRaV3hsYzNNZ2MyaGxiSFJsY25NIiwiYnMiOiJjNVhQc1FyQ01CQ0FZZHdrazJQSjRsV3FnbE1OaUdPSENxS2pTLWZRWHMxSm05UW1XSHdoMzhRbjhnV3NvTlZKZER2dXZuODR0bVBqV0dvb1NadmFnblh5REtSQm1SSUx0TzFDWWVHd3RwRjM2NHNKRDlJZkxEdXctWW95aUdWQnVhazFTZGpUQ2Qtd1FsTVZDTUZ5RVlLRTBtaW5JdTk2RklLSFdkdWxmM1JzelNCUjBvRXprQmxveUtuMjFCVU9VVWZlVFBoODJIeFhiTXY4UkdHTkQ3QjVQcGUza3l3N0dIbVhxUmh4YUY2T09rZWZidEM3QXciLCJpZCI6ImZjX3ZyWVBhZi1BR3IyZjQtRVBoN0s3NlFZXzQifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiQ2FuIG1pbm9ycyBzdGF5IGluIGhvbWVsZXNzIHNoZWx0ZXJzPyIsImxrIjoiR2lSallXNGdiV2x1YjNKeklITjBZWGtnYVc0Z2FHOXRaV3hsYzNNZ2MyaGxiSFJsY25NIiwiYnMiOiJjNVhQc1FyQ01CQ0FZZHdrazJQSjRsV3FnbE1OaUdPSENxS2pTLWZRWHMxSm05UW1XSHdoMzhRbjhnV3NvTlZKZER2dXZuODR0bVBqV0dvb1NadmFnblh5REtSQm1SSUx0TzFDWWVHd3RwRjM2NHNKRDlJZkxEdXctWW95aUdWQnVhazFTZGpUQ2Qtd1FsTVZDTUZ5RVlLRTBtaW5JdTk2RklLSFdkdWxmM1JzelNCUjBvRXprQmxveUtuMjFCVU9VVWZlVFBoODJIeFhiTXY4UkdHTkQ3QjVQcGUza3l3N0dIbVhxUmh4YUY2T09rZWZidEM3QXciLCJpZCI6ImZjX3ZyWVBhZi1BR3IyZjQtRVBoN0s3NlFZXzQifQ%3D%3D"
+        },
+        {
+            "question": "Did California give homeless people $750 a month?",
+            "type": "featured_snippet",
+            "snippet": "$750 a month was given to homeless people in California. What they reported spending it on is more evidence that universal basic income works.",
+            "title": "How Homeless People Said They Spent $750-a-Month Stipend ...",
+            "date": "Dec 20, 2023",
+            "link": "https://www.businessinsider.com/homeless-people-monthly-stipend-california-study-basic-income-2023-12#:~:text=%24750%20a%20month%20was%20given,that%20universal%20basic%20income%20works.",
+            "displayed_link": "https://www.businessinsider.com \u203a homeless-people-mon...",
+            "source_logo": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/85383076bc3a1619325604864c003f25ffc216f12de850151a084ee3deccd9bb.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiRGlkIENhbGlmb3JuaWEgZ2l2ZSBob21lbGVzcyBwZW9wbGUgJDc1MCBhIG1vbnRoPyIsImxrIjoiR2pCa2FXUWdZMkZzYVdadmNtNXBZU0JuYVhabElHaHZiV1ZzWlhOeklIQmxiM0JzWlNBa056VXdJR0VnYlc5dWRHZyIsImJzIjoiYzVYUHNRckNNQkNBWWR3a2syUEo0bFdxZ2xNTmlHT0hDcUtqUy1mUVhzMUptOVFtV0h3aDM4UW44Z1dzb05WSmREdnV2bjg0dG1QaldHb29TWnZhZ25YeURLUkJtUklMdE8xQ1llR3d0cEYzNjRzSkQ5SWZMRHV3LVlveWlHVkJ1YWsxU2RqVENkLXdRbE1WQ01GeUVZS0UwbWluSXU5NkZJS0hXZHVsZjNSc3pTQlIwb0V6a0Jsb3lLbjIxQlVPVVVmZVRQaDgySHhYYk12OFJHR05EN0I1UHBlM2t5dzdHSG1YcVJoeGFGNk9Pa2VmYnRDN0F3IiwiaWQiOiJmY192cllQYWYtQUdyMmY0LUVQaDdLNzZRWV80In0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiRGlkIENhbGlmb3JuaWEgZ2l2ZSBob21lbGVzcyBwZW9wbGUgJDc1MCBhIG1vbnRoPyIsImxrIjoiR2pCa2FXUWdZMkZzYVdadmNtNXBZU0JuYVhabElHaHZiV1ZzWlhOeklIQmxiM0JzWlNBa056VXdJR0VnYlc5dWRHZyIsImJzIjoiYzVYUHNRckNNQkNBWWR3a2syUEo0bFdxZ2xNTmlHT0hDcUtqUy1mUVhzMUptOVFtV0h3aDM4UW44Z1dzb05WSmREdnV2bjg0dG1QaldHb29TWnZhZ25YeURLUkJtUklMdE8xQ1llR3d0cEYzNjRzSkQ5SWZMRHV3LVlveWlHVkJ1YWsxU2RqVENkLXdRbE1WQ01GeUVZS0UwbWluSXU5NkZJS0hXZHVsZjNSc3pTQlIwb0V6a0Jsb3lLbjIxQlVPVVVmZVRQaDgySHhYYk12OFJHR05EN0I1UHBlM2t5dzdHSG1YcVJoeGFGNk9Pa2VmYnRDN0F3IiwiaWQiOiJmY192cllQYWYtQUdyMmY0LUVQaDdLNzZRWV80In0%3D"
+        },
+        {
+            "question": "What to do with a homeless teen?",
+            "type": "featured_snippet",
+            "snippet": "Help Them Find a Job or Go to School One of the biggest challenges for homeless teens is finding a job or school. If you know someone homeless, offer to help them look for a job or enroll in school. You can also connect them with local resources, such as food banks and shelters.",
+            "title": "How You Can Help Homeless Teens",
+            "link": "https://www.reachrs.org/how-you-can-help-homeless-teens#:~:text=Help%20Them%20Find%20a%20Job,as%20food%20banks%20and%20shelters.",
+            "displayed_link": "https://www.reachrs.org \u203a how-you-can-help-homeless-te...",
+            "source_logo": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/85383076bc3a1619325604864c003f25e2ebdfbd0d0533ebbb3489763cba28e1.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiV2hhdCB0byBkbyB3aXRoIGEgaG9tZWxlc3MgdGVlbj8iLCJsayI6IkdoOTNhR0YwSUhSdklHUnZJSGRwZEdnZ1lTQm9iMjFsYkdWemN5QjBaV1Z1IiwiYnMiOiJjNVhQc1FyQ01CQ0FZZHdrazJQSjRsV3FnbE1OaUdPSENxS2pTLWZRWHMxSm05UW1XSHdoMzhRbjhnV3NvTlZKZER2dXZuODR0bVBqV0dvb1NadmFnblh5REtSQm1SSUx0TzFDWWVHd3RwRjM2NHNKRDlJZkxEdXctWW95aUdWQnVhazFTZGpUQ2Qtd1FsTVZDTUZ5RVlLRTBtaW5JdTk2RklLSFdkdWxmM1JzelNCUjBvRXprQmxveUtuMjFCVU9VVWZlVFBoODJIeFhiTXY4UkdHTkQ3QjVQcGUza3l3N0dIbVhxUmh4YUY2T09rZWZidEM3QXciLCJpZCI6ImZjX3ZyWVBhZi1BR3IyZjQtRVBoN0s3NlFZXzQifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiV2hhdCB0byBkbyB3aXRoIGEgaG9tZWxlc3MgdGVlbj8iLCJsayI6IkdoOTNhR0YwSUhSdklHUnZJSGRwZEdnZ1lTQm9iMjFsYkdWemN5QjBaV1Z1IiwiYnMiOiJjNVhQc1FyQ01CQ0FZZHdrazJQSjRsV3FnbE1OaUdPSENxS2pTLWZRWHMxSm05UW1XSHdoMzhRbjhnV3NvTlZKZER2dXZuODR0bVBqV0dvb1NadmFnblh5REtSQm1SSUx0TzFDWWVHd3RwRjM2NHNKRDlJZkxEdXctWW95aUdWQnVhazFTZGpUQ2Qtd1FsTVZDTUZ5RVlLRTBtaW5JdTk2RklLSFdkdWxmM1JzelNCUjBvRXprQmxveUtuMjFCVU9VVWZlVFBoODJIeFhiTXY4UkdHTkQ3QjVQcGUza3l3N0dIbVhxUmh4YUY2T09rZWZidEM3QXciLCJpZCI6ImZjX3ZyWVBhZi1BR3IyZjQtRVBoN0s3NlFZXzQifQ%3D%3D"
+        },
+        {
+            "question": "Where do I stay if I am homeless?",
+            "type": "featured_snippet",
+            "snippet": "Check how to get homeless help from social services. To find somewhere to stay ask your local council for contact details of hostels, night shelters, refuges and bed and breakfasts. You should first check if you can get emergency housing from your local council.",
+            "title": "If you have nowhere to stay tonight - Citizens Advice",
+            "date": "May 23, 2018",
+            "link": "https://www.citizensadvice.org.uk/housing/homeless-help/homelessness/applying-for-homeless-help/if-you-have-nowhere-to-stay-tonight/#:~:text=Check%20how%20to%20get%20homeless,housing%20from%20your%20local%20council.",
+            "displayed_link": "https://www.citizensadvice.org.uk \u203a homelessness \u203a if-yo...",
+            "source_logo": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/85383076bc3a1619325604864c003f25aa9808429c3815a1bcf379c6db989373.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiV2hlcmUgZG8gSSBzdGF5IGlmIEkgYW0gaG9tZWxlc3M/IiwibGsiOiJHaUIzYUdWeVpTQmtieUJwSUhOMFlYa2dhV1lnYVNCaGJTQm9iMjFsYkdWemN3IiwiYnMiOiJjNVhQc1FyQ01CQ0FZZHdrazJQSjRsV3FnbE1OaUdPSENxS2pTLWZRWHMxSm05UW1XSHdoMzhRbjhnV3NvTlZKZER2dXZuODR0bVBqV0dvb1NadmFnblh5REtSQm1SSUx0TzFDWWVHd3RwRjM2NHNKRDlJZkxEdXctWW95aUdWQnVhazFTZGpUQ2Qtd1FsTVZDTUZ5RVlLRTBtaW5JdTk2RklLSFdkdWxmM1JzelNCUjBvRXprQmxveUtuMjFCVU9VVWZlVFBoODJIeFhiTXY4UkdHTkQ3QjVQcGUza3l3N0dIbVhxUmh4YUY2T09rZWZidEM3QXciLCJpZCI6ImZjX3ZyWVBhZi1BR3IyZjQtRVBoN0s3NlFZXzQifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWRsSlpTRFpqTFY5U00xRlJhVWs1Um5kdVVsRkVUamRHT1hCbmNXcHRiakpyWlVKTVNuUTNSbGRLTkdKSmNVWTFNUzAzWmtoWGJFdzJTRWRITW1rMldHOVJka3RuYzNCU1pXdG5hMUozZG5jMFJHUklVbTR6TUVzMmR4SVhkbkpaVUdGbUxVRkhjakptTkMxRlVHZzNTemMyVVZrYUlrRkdUVUZIUjNCcWJscEtaR0owZG1OV2NGcEZRbk16V21KSFdUaDRhWFl4ZFZFIiwiZmN2IjoiMyIsImVpIjoidnJZUGFmLUFHcjJmNC1FUGg3Szc2UVkiLCJxYyI6IkNoOTViM1YwYUNCb2IyMWxiR1Z6Y3lCemFHVnNkR1Z5Y3lCdVpXRnlJRzFsRUFCOW5VdzRQdyIsInF1ZXN0aW9uIjoiV2hlcmUgZG8gSSBzdGF5IGlmIEkgYW0gaG9tZWxlc3M%2FIiwibGsiOiJHaUIzYUdWeVpTQmtieUJwSUhOMFlYa2dhV1lnYVNCaGJTQm9iMjFsYkdWemN3IiwiYnMiOiJjNVhQc1FyQ01CQ0FZZHdrazJQSjRsV3FnbE1OaUdPSENxS2pTLWZRWHMxSm05UW1XSHdoMzhRbjhnV3NvTlZKZER2dXZuODR0bVBqV0dvb1NadmFnblh5REtSQm1SSUx0TzFDWWVHd3RwRjM2NHNKRDlJZkxEdXctWW95aUdWQnVhazFTZGpUQ2Qtd1FsTVZDTUZ5RVlLRTBtaW5JdTk2RklLSFdkdWxmM1JzelNCUjBvRXprQmxveUtuMjFCVU9VVWZlVFBoODJIeFhiTXY4UkdHTkQ3QjVQcGUza3l3N0dIbVhxUmh4YUY2T09rZWZidEM3QXciLCJpZCI6ImZjX3ZyWVBhZi1BR3IyZjQtRVBoN0s3NlFZXzQifQ%3D%3D"
+        }
+    ],
+    "ai_overview": {
+        "page_token": "vmRWFnicxZTbcqpIFIav50GGG-MZQ0wVtatpW4LEKKI74o2F0LZyjDQEyd2eZ5mnmqcZDmrQmNROzcX0BX1avfrvtT7Wr7-drWf_88dfmzB8off1ehzHNeL7xME1w3frOk08o772HRoYmx8bh8ceE0UO5uMKBJIiQcmdtfqRhBaJ9tyx9PmTtUr2Pe15_7Jwu8nKdTaP_Z-RPp84CyhMTbHfWMyHDHH4iDLJK99mDMo3GLzlXwNtrK-rQAxaa7aKxhtO5m4VjckV8MuVTrGVCtxbtL6spx_7z3YvndRoDXu19p7g1dDptRpGrdVodmujuu6mBuC_NumLPQJm6ddHACinNZSvwy8cQiBkB644Li8JpPCqKHI-VT4Yk8MZpIJe3F5yZRXn40wWKTlWIPDzyCAp9f9BBrocHPpMw_Fh5Jr92Tt6hYYPm-9NOGUH5jGrpsZHvw_5E7IZjAmUhKMfBbDAis1YRUi47hX5cLQAVYKETwwAGIDtSpTD1JlQN0lKSaO-CtKuWQ9oxgycdht-Xxu2J-MhpotkGD7FwBmtO6-3ydwz3uKbnEaDnnCkZRyXkigPe2_GHLO1x5rQLLGYRYach4QAIoAP-brazpC5eiClAYIhOeyNSD-NsnraHQMggs17XNKwF1dLRykXrRTBzKWmHMyky7QSoWSWO1aGJcXpk6XTtkiOee-VH1T6i1CamNIfJL4PexpCOQ7CJJudBJeUK0BBpxWpeEN6UVyISf2SNA4izBYAzDYnuV0mGRbaCTkPrnXoNSDG2-zyb7fZV5vwGnzU6nQGXa15K7Ej8KDL1arghAIUTZkc4PPd1TeKofE_43kslQgqZ3iSr_CUoCB8gme-dLA8lkqtKJUb5RJPqcDzrFSW8FTO8bSP-e4NrpfKEp7ZPeJxcIEnPOBJSsrRJZ5SCU_0OZ5ZqSzhqZZLpQeKUnnC89ulcvabpTKnFBfded2MLHKJMOpPB97U8C30tgsbb89tj7vDAC-lgIKb5doN73XTuVluzXuhNQgTk9nxmh-Fm8qD72IHU1pRN9gJcUArHtaDiosZ1wl8vqGz8rhrT7ixDVAVJfuXvQqsWVds6ouO6mlyZzy5nbBrJXYG9kCez2zZY2Hc5daW17IHcdXUn62xpwo7qENCOl5fiJxEnT35jU5EksGjJDrKeLbqR7seHq9tNpZHcX_6GKvDzYrVrd3dNAwii-t3dC54uMtFUb5ZFWPnZ4DsCDGublLMNxk3MPg0Z6wNntKsM9TQl5i-8ljnurdm545jcYsz2y3GJWHywrPtfwGzhL1-",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=vmRWFnicxZTbcqpIFIav50GGG-MZQ0wVtatpW4LEKKI74o2F0LZyjDQEyd2eZ5mnmqcZDmrQmNROzcX0BX1avfrvtT7Wr7-drWf_88dfmzB8off1ehzHNeL7xME1w3frOk08o772HRoYmx8bh8ceE0UO5uMKBJIiQcmdtfqRhBaJ9tyx9PmTtUr2Pe15_7Jwu8nKdTaP_Z-RPp84CyhMTbHfWMyHDHH4iDLJK99mDMo3GLzlXwNtrK-rQAxaa7aKxhtO5m4VjckV8MuVTrGVCtxbtL6spx_7z3YvndRoDXu19p7g1dDptRpGrdVodmujuu6mBuC_NumLPQJm6ddHACinNZSvwy8cQiBkB644Li8JpPCqKHI-VT4Yk8MZpIJe3F5yZRXn40wWKTlWIPDzyCAp9f9BBrocHPpMw_Fh5Jr92Tt6hYYPm-9NOGUH5jGrpsZHvw_5E7IZjAmUhKMfBbDAis1YRUi47hX5cLQAVYKETwwAGIDtSpTD1JlQN0lKSaO-CtKuWQ9oxgycdht-Xxu2J-MhpotkGD7FwBmtO6-3ydwz3uKbnEaDnnCkZRyXkigPe2_GHLO1x5rQLLGYRYach4QAIoAP-brazpC5eiClAYIhOeyNSD-NsnraHQMggs17XNKwF1dLRykXrRTBzKWmHMyky7QSoWSWO1aGJcXpk6XTtkiOee-VH1T6i1CamNIfJL4PexpCOQ7CJJudBJeUK0BBpxWpeEN6UVyISf2SNA4izBYAzDYnuV0mGRbaCTkPrnXoNSDG2-zyb7fZV5vwGnzU6nQGXa15K7Ej8KDL1arghAIUTZkc4PPd1TeKofE_43kslQgqZ3iSr_CUoCB8gme-dLA8lkqtKJUb5RJPqcDzrFSW8FTO8bSP-e4NrpfKEp7ZPeJxcIEnPOBJSsrRJZ5SCU_0OZ5ZqSzhqZZLpQeKUnnC89ulcvabpTKnFBfded2MLHKJMOpPB97U8C30tgsbb89tj7vDAC-lgIKb5doN73XTuVluzXuhNQgTk9nxmh-Fm8qD72IHU1pRN9gJcUArHtaDiosZ1wl8vqGz8rhrT7ixDVAVJfuXvQqsWVds6ouO6mlyZzy5nbBrJXYG9kCez2zZY2Hc5daW17IHcdXUn62xpwo7qENCOl5fiJxEnT35jU5EksGjJDrKeLbqR7seHq9tNpZHcX_6GKvDzYrVrd3dNAwii-t3dC54uMtFUb5ZFWPnZ4DsCDGublLMNxk3MPg0Z6wNntKsM9TQl5i-8ljnurdm545jcYsz2y3GJWHywrPtfwGzhL1-"
+    },
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Larkin Street Youth Services \u2013 Ending Youth ... - San ...",
+            "link": "https://larkinstreetyouth.org/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://larkinstreetyouth.org/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECEAQAQ",
+            "displayed_link": "https://larkinstreetyouth.org",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc3c64c9f74952513cb8250831d510e641.png",
+            "date": "Jun 4, 2025",
+            "snippet": "Larkin Street Youth Services is a nonprofit empowering young people to move beyond homelessness. ... Get help now. Call 1-800-669-6196 \u00b7 Emergency ...",
+            "snippet_highlighted_words": [
+                "Youth Services",
+                "homelessness"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Housing",
+                        "link": "https://larkinstreetyouth.org/get-help/housing/"
+                    },
+                    {
+                        "title": "Careers",
+                        "link": "https://larkinstreetyouth.org/give-help/careers/"
+                    },
+                    {
+                        "title": "Emergency Shelters",
+                        "link": "https://larkinstreetyouth.org/get-help/emergency-shelters/"
+                    },
+                    {
+                        "title": "Youth Grievance Policy",
+                        "link": "https://larkinstreetyouth.org/get-help/youth-grievance-form/"
+                    }
+                ]
+            },
+            "source": "Larkin Street Youth Services"
+        },
+        {
+            "position": 2,
+            "title": "Transitional Aged Youth Housing (TAY)",
+            "link": "https://www.sf.gov/information--transitional-aged-youth-housing-tay",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.sf.gov/information--transitional-aged-youth-housing-tay&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECDcQAQ",
+            "displayed_link": "https://www.sf.gov \u203a information--transitional-aged-yo...",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc59b59297c9fd01d83e992c790b2725c6.png",
+            "snippet": "TAY are young adults, ages 18-24 (and ages 25 to 27, for those currently experiencing homelessness), who are transitioning from public systems, like foster care ...",
+            "snippet_highlighted_words": [
+                "homelessness"
+            ],
+            "source": "SF.gov"
+        },
+        {
+            "position": 3,
+            "title": "Homeless Youth Alliance - San Francisco",
+            "link": "https://www.homelessyouthalliance.org/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.homelessyouthalliance.org/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECDkQAQ",
+            "displayed_link": "https://www.homelessyouthalliance.org",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdca84c0502ce8d36d8b168bc200f8a1653.png",
+            "snippet": "At Homeless Youth Alliance, we strive to empower young people experiencing homelessness to protect themselves, to educate each other, to reduce harm within the ...",
+            "snippet_highlighted_words": [
+                "Homeless Youth",
+                "homelessness"
+            ],
+            "source": "Homeless Youth Alliance"
+        },
+        {
+            "position": 4,
+            "title": "Housing Services",
+            "link": "https://3rdstyouth.org/housing-services/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://3rdstyouth.org/housing-services/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECD0QAQ",
+            "displayed_link": "https://3rdstyouth.org \u203a housing-services",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc99516fbb07ff1397d833f6c9d61023f5.png",
+            "date": "Jun 4, 2025",
+            "snippet": "3rd Street offers rapid re-housing, access to the City's Coordinated Entry System, and housing-focused case management.",
+            "snippet_highlighted_words": [
+                "housing",
+                "housing"
+            ],
+            "source": "3rd Street Youth Center & Clinic"
+        },
+        {
+            "position": 5,
+            "title": "Crisis Shelter \u2013 Huckleberry House",
+            "link": "https://www.huckleberryyouth.org/crisis-shelter/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.huckleberryyouth.org/crisis-shelter/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECDwQAQ",
+            "displayed_link": "https://www.huckleberryyouth.org \u203a crisis-shelter",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc5dd4c13b41b18717dd7ada030bab77ec.png",
+            "snippet": "Established in 1967, Huckleberry House offers continuous 24-hour crisis intervention, resolution services, and emergency shelter for high-need youth.",
+            "snippet_highlighted_words": [
+                "services",
+                "shelter",
+                "youth"
+            ],
+            "source": "Huckleberry Youth Programs"
+        },
+        {
+            "position": 6,
+            "title": "Children of Shelters | Education, empowerment and ... - San ...",
+            "link": "https://www.childrenofshelters.org/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.childrenofshelters.org/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECDoQAQ",
+            "displayed_link": "https://www.childrenofshelters.org",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc9d2b34e859cb163ef6a5d7ad1cbad019.png",
+            "snippet": "Children of Shelters provides San Francisco area children residing in or supported by family transitional shelters with educational assistance, ...",
+            "snippet_highlighted_words": [
+                "Shelters",
+                "shelters"
+            ],
+            "source": "Children of Shelters"
+        },
+        {
+            "position": 7,
+            "title": "A Home Away from Homelessness",
+            "link": "http://www.homeaway.org/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.homeaway.org/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECGQQAQ",
+            "displayed_link": "http://www.homeaway.org",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc9ebb4b42726d7cd40f54a3afe5319499.png",
+            "snippet": "A Home Away From Homelessness is a San Francisco non profit dedicated to changing the trajectory of homeless children's lives.",
+            "snippet_highlighted_words": [
+                "Homelessness",
+                "homeless"
+            ],
+            "source": "A Home Away from Homelessness"
+        },
+        {
+            "position": 8,
+            "title": "Homeless Children's Network - San Francisco",
+            "link": "https://www.hcnkids.org/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hcnkids.org/&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECD8QAQ",
+            "displayed_link": "https://www.hcnkids.org",
+            "snippet": "We provide mental health services to homeless, formerly homeless, and at risk children and youth, their families, and to community members. Rectangle 12 (1) ...",
+            "snippet_highlighted_words": [
+                "services",
+                "homeless",
+                "homeless",
+                "youth"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Jabali Youth Advocacy",
+                        "link": "https://www.hcnkids.org/jabali-youth-advocacy"
+                    },
+                    {
+                        "title": "Ma\u2019at Youth Leadership",
+                        "link": "https://www.hcnkids.org/maat-youth-leadership"
+                    },
+                    {
+                        "title": "Our Team",
+                        "link": "https://www.hcnkids.org/our-teams"
+                    },
+                    {
+                        "title": "Careers & Internships",
+                        "link": "https://www.hcnkids.org/careers-internships"
+                    }
+                ]
+            },
+            "source": "hcnkids.org"
+        },
+        {
+            "position": 9,
+            "title": "Emergency Youth Shelters",
+            "link": "https://www.sfserviceguide.org/services/2032",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.sfserviceguide.org/services/2032&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QFnoECDgQAQ",
+            "displayed_link": "https://www.sfserviceguide.org \u203a services",
+            "favicon": "https://serpapi.com/searches/690fb6bcbca7e548742b13c6/images/4be2e68fad8452c37b1bc620c2552bdc01c9e95229e98de080fb06fde6aa60dd.png",
+            "snippet": "Larkin Street Youth Services has two Emergency Youth Shelters: Lark-Inn for Youth For ages 18 to 24 Open 24 hours 1 (800) 447-8223",
+            "snippet_highlighted_words": [
+                "Youth Services",
+                "Youth Shelters",
+                "Youth"
+            ],
+            "source": "SF Service Guide"
+        }
+    ],
+    "filters": [
+        {
+            "name": "Open now",
+            "parameters": {
+                "uds": "AOm0WdE2fekQnsyfYEw8JPYozOKzOUQrD4b8wildkDVTdo08-iyLKB93C9ARLQx0pwy7bt3B6dxJZCzQpIXjY90o1Txep_Cxj99l_82QSirO8b0hfTrIWTCR5GlgPC0Z4zMbCRGZyeGPgSBfQnrpYRHp7BUara0TJQGvaC79E9FkI5FIdkt51FpAyD2T0NUGgpFFte3MQokrmrDBaf-jW896gPclWYmaWg",
+                "q": "Youth Homeless Shelters near me open now"
+            },
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Youth+Homeless+Shelters+near+me+open+now&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzOUQrD4b8wildkDVTdo08-iyLKB93C9ARLQx0pwy7bt3B6dxJZCzQpIXjY90o1Txep_Cxj99l_82QSirO8b0hfTrIWTCR5GlgPC0Z4zMbCRGZyeGPgSBfQnrpYRHp7BUara0TJQGvaC79E9FkI5FIdkt51FpAyD2T0NUGgpFFte3MQokrmrDBaf-jW896gPclWYmaWg&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QxKsJKAB6BAgWEAE&ictx=0",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me+open+now&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzOUQrD4b8wildkDVTdo08-iyLKB93C9ARLQx0pwy7bt3B6dxJZCzQpIXjY90o1Txep_Cxj99l_82QSirO8b0hfTrIWTCR5GlgPC0Z4zMbCRGZyeGPgSBfQnrpYRHp7BUara0TJQGvaC79E9FkI5FIdkt51FpAyD2T0NUGgpFFte3MQokrmrDBaf-jW896gPclWYmaWg"
+        },
+        {
+            "name": "Top rated",
+            "parameters": {
+                "uds": "AOm0WdE2fekQnsyfYEw8JPYozOKzmGP1DnNiF5FOOpt_ZIo606jFk0xEcIRVfBVCHjW7EQuZb2DLpjS1zrssZiBJAgqNEwjmppSECNd0UrWARCBtc_puyUlz2XL__pAmvEyaGccSiLvwPJJ0kcnQzEnLeZ_P2ShE1WKYLsyQ0flsRL__tlhUqmhyZ8Kts9FqqW2qW348OrwEOBk3pv6-6kP6njBgXnPz1EfPN24pZbDjV_kmcvQ0H4o",
+                "q": "top rated Youth Homeless Shelters near me"
+            },
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=top+rated+Youth+Homeless+Shelters+near+me&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzmGP1DnNiF5FOOpt_ZIo606jFk0xEcIRVfBVCHjW7EQuZb2DLpjS1zrssZiBJAgqNEwjmppSECNd0UrWARCBtc_puyUlz2XL__pAmvEyaGccSiLvwPJJ0kcnQzEnLeZ_P2ShE1WKYLsyQ0flsRL__tlhUqmhyZ8Kts9FqqW2qW348OrwEOBk3pv6-6kP6njBgXnPz1EfPN24pZbDjV_kmcvQ0H4o&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0QxKsJKAF6BAgXEAE&ictx=0",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=top+rated+Youth+Homeless+Shelters+near+me&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzmGP1DnNiF5FOOpt_ZIo606jFk0xEcIRVfBVCHjW7EQuZb2DLpjS1zrssZiBJAgqNEwjmppSECNd0UrWARCBtc_puyUlz2XL__pAmvEyaGccSiLvwPJJ0kcnQzEnLeZ_P2ShE1WKYLsyQ0flsRL__tlhUqmhyZ8Kts9FqqW2qW348OrwEOBk3pv6-6kP6njBgXnPz1EfPN24pZbDjV_kmcvQ0H4o"
+        }
+    ],
+    "related_searches": [
+        {
+            "block_position": 1,
+            "items": [
+                {
+                    "name": "Larkin Street Youth Services",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAiHk4CrwQcOKYD18gDLu77UokQi1ewrcquCFcRSdrkYVAuzbC0sxg&s=0",
+                    "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Larkin+Street+Youth+Services&stick=H4sIAAAAAAAAAOMwVOLWT9c3LEkxNzIrzP3FyLCBheEVCy8XsiiCn10Yn5Ge94qFj4sHxC8oT0sqrEpKfsXCzcWpn6tvYGRmXJSMUJ5RlmESn47gp2Wb5OVZvmLh5-IF8Q3Tk9NMik2y85AszEtLryqBm2eWk5ZW8IqFi4sDxEsxyylYxCrjk1iUnZmnEFxSlJpaohCZX1qSoRCcWlSWmZxafItNkmH3oo6fLK77DTdaGm_cJPZ4O_sv97-1aTNWLuIQC0jNL8hJVUjMKc5XKE5NLErOUEjLL1rBwQgAJ1MsRggBAAA&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Qs9oBKAB6BAhjEAo",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Larkin+Street+Youth+Services&stick=H4sIAAAAAAAAAOMwVOLWT9c3LEkxNzIrzP3FyLCBheEVCy8XsiiCn10Yn5Ge94qFj4sHxC8oT0sqrEpKfsXCzcWpn6tvYGRmXJSMUJ5RlmESn47gp2Wb5OVZvmLh5-IF8Q3Tk9NMik2y85AszEtLryqBm2eWk5ZW8IqFi4sDxEsxyylYxCrjk1iUnZmnEFxSlJpaohCZX1qSoRCcWlSWmZxafItNkmH3oo6fLK77DTdaGm_cJPZ4O_sv97-1aTNWLuIQC0jNL8hJVUjMKc5XKE5NLErOUEjLL1rBwQgAJ1MsRggBAAA"
+                },
+                {
+                    "name": "3rd Street Youth Center & Clinic",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsMK80sKdlRoCn2xVwhFk8uDs_EHP2bpUFcs8OhLWy-iNUIK51JGCDZQ&s=0",
+                    "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=3rd+Street+Youth+Center+and+Clinic&stick=H4sIAAAAAAAAAOMwVOLWT9c3LMkujM9Iz_vFyLCBheEVCy8XRDTF3MisMBfBh6h6xcLHxQPiF5SnJRVWJSW_YuHm4tTP1TcwMjMuSkYozyjLMIlPR_DTsk3y8ixfsfBz8YL4hunJaSbFJtl5SBbmpaVXlcDNM8tJSyt4xcLFxQHipZjlFCxiVTIuSlEILilKTS1RiMwvLclQcE7NK0ktUkjMS1FwzsnMy0y-xSbJsHtRx08W1_2GGy2NN24Se7yd_Zf739q0GSsXcYgFpOYX5KQqJOYU5ysUpyYWJWcopOUXreBgBAC0f_GjDgEAAA&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Qs9oBKAB6BAhjEA8",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=3rd+Street+Youth+Center+and+Clinic&stick=H4sIAAAAAAAAAOMwVOLWT9c3LMkujM9Iz_vFyLCBheEVCy8XRDTF3MisMBfBh6h6xcLHxQPiF5SnJRVWJSW_YuHm4tTP1TcwMjMuSkYozyjLMIlPR_DTsk3y8ixfsfBz8YL4hunJaSbFJtl5SBbmpaVXlcDNM8tJSyt4xcLFxQHipZjlFCxiVTIuSlEILilKTS1RiMwvLclQcE7NK0ktUkjMS1FwzsnMy0y-xSbJsHtRx08W1_2GGy2NN24Se7yd_Zf739q0GSsXcYgFpOYX5KQqJOYU5ysUpyYWJWcopOUXreBgBAC0f_GjDgEAAA"
+                },
+                {
+                    "name": "Episcopal Community Services",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvEowYL3V_ECT9cWfvFC6tZqIjkzf0swkNEbUIiPdSQ5YgyZa3X46&s=0",
+                    "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Episcopal+Community+Services&stick=H4sIAAAAAAAAAOMwVOLRT9c3LChPSyqsSkr-xciwgYXhFQsvFzdIuCTF3MisMBfBzy6Mz0jPe8XCx4Wi7RULNxenfq6-gZGZcVEyQnlGWYZJfDqCn5Ztkpdn-YqFn4sXxDdMT04zKTbJzkOyMC8tvaoEbp5ZTlpawSsWLi4OEC_FLKdgEauMa0FmcXJ-QWKOgnN-bm5pXmZJpUJwalFZZnJq8S02SYbdizp-srjuN9xoabxxk9jj7ey_3P_Wps1YuYhDLCA1vyAnVSExpzhfoTg1sSg5QyEtv2gFByMAH5jSMgkBAAA&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Qs9oBKAB6BAhjEBQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Episcopal+Community+Services&stick=H4sIAAAAAAAAAOMwVOLRT9c3LChPSyqsSkr-xciwgYXhFQsvFzdIuCTF3MisMBfBzy6Mz0jPe8XCx4Wi7RULNxenfq6-gZGZcVEyQnlGWYZJfDqCn5Ztkpdn-YqFn4sXxDdMT04zKTbJzkOyMC8tvaoEbp5ZTlpawSsWLi4OEC_FLKdgEauMa0FmcXJ-QWKOgnN-bm5pXmZJpUJwalFZZnJq8S02SYbdizp-srjuN9xoabxxk9jj7ey_3P_Wps1YuYhDLCA1vyAnVSExpzhfoTg1sSg5QyEtv2gFByMAH5jSMgkBAAA"
+                },
+                {
+                    "name": "SF LGBT Center",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtCnU2NZ6TJH1DIIl7e1mnOT7LfjS1n1rFBNXA0YIoT82l81SGFWsn&s=0",
+                    "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=SF+LGBT+Center&stick=H4sIAAAAAAAAAOMwVOLUz9U3MDIzLkr-xciwgYXhFQsvF7d-ur5hSYq5kVlhLoKfXRifkZ73ioWPiwfELyhPSyqsSkp-xcLNhTAEoTyjLMMkPh3BT8s2ycuzfMXCz8UL4humJ6eZFJtk5yFZmJeWXlUCN88sJy2t4BULFxcHiJdillOwiJUv2E3Bx90pRME5Na8ktegWmyTD7kUdP1lc9xtutDTeuEns8Xb2X-5_a9NmrFzEIRaQml-Qk6qQmFOcr1CcmliUnKGQll-0goMRAAISARj4AAAA&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Qs9oBKAB6BAhjEBk",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=SF+LGBT+Center&stick=H4sIAAAAAAAAAOMwVOLUz9U3MDIzLkr-xciwgYXhFQsvF7d-ur5hSYq5kVlhLoKfXRifkZ73ioWPiwfELyhPSyqsSkp-xcLNhTAEoTyjLMMkPh3BT8s2ycuzfMXCz8UL4humJ6eZFJtk5yFZmJeWXlUCN88sJy2t4BULFxcHiJdillOwiJUv2E3Bx90pRME5Na8ktegWmyTD7kUdP1lc9xtutDTeuEns8Xb2X-5_a9NmrFzEIRaQml-Qk6qQmFOcr1CcmliUnKGQll-0goMRAAISARj4AAAA"
+                },
+                {
+                    "name": "Dolores Street Community Services",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5n36FoP3jxQPqYPAoAlQPm5tWgJCGSd-EcfWyg1WvWsB5hXGOK3pzQ&s=0",
+                    "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Dolores+Street+Community+Services&stick=H4sIAAAAAAAAAOMwVOLWT9c3LMkoyzCJT__FyLCBheEVCy8XRDTF3MisMBfBzy6Mz0jPe8XCx8UD4heUpyUVViUlv2Lh5uLUz9U3MDIzLkpGKIcYiuCnZZvk5Vm-YuHn4gXxDdOT00yKTbLzkCzMS0uvKoGbZ5aTllbwioWLiwPESzHLKVjEquiSn5NflFqsEFxSlJpaouCcn5tbmpdZUqkQnFpUlpmcWnyLTZJh96KOnyyu-w03Whpv3CT2eDv7L_e_tWkzVi7iEAtIzS_ISVVIzCnOVyhOTSxKzlBIyy9awcEIALzvvCUNAQAA&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Qs9oBKAB6BAhjEB4",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Dolores+Street+Community+Services&stick=H4sIAAAAAAAAAOMwVOLWT9c3LMkoyzCJT__FyLCBheEVCy8XRDTF3MisMBfBzy6Mz0jPe8XCx8UD4heUpyUVViUlv2Lh5uLUz9U3MDIzLkpGKIcYiuCnZZvk5Vm-YuHn4gXxDdOT00yKTbLzkCzMS0uvKoGbZ5aTllbwioWLiwPESzHLKVjEquiSn5NflFqsEFxSlJpaouCcn5tbmpdZUqkQnFpUlpmcWnyLTZJh96KOnyyu-w03Whpv3CT2eDv7L_e_tWkzVi7iEAtIzS_ISVVIzCnOVyhOTSxKzlBIyy9awcEIALzvvCUNAQAA"
+                },
+                {
+                    "name": "Project Homeless Connect",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM5IlTod-9LyLqTWnrwOmu7EDNagTG9xg89e_mfnKDBV9AhWBKbuhy2Q&s=0",
+                    "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Project+Homeless+Connect&stick=H4sIAAAAAAAAAOMwVOLWT9c3LEnLNsnLs_zFyLCBheEVCy8XRDTF3MisMBfBzy6Mz0jPe8XCx8UD4heUpyUVViUlv2Lh5uLUz9U3MDIzLkpGKM8oyzCJT0fwIZa8YuHn4gXxDdOT00yKTbLzkCzMS0uvKoGbZ5aTllbwioWLiwPESzHLKVjEKhFQlJ-Vmlyi4JGfm5qTWlys4JyflwcUuMUmybB7UcdPFtf9hhstjTduEnu8nf2X-9_atBkrF3GIBaTmF-SkKiTmFOcrFKcmFiVnKKTlF63gYAQAv5UbQwQBAAA&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Qs9oBKAB6BAhjECM",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Project+Homeless+Connect&stick=H4sIAAAAAAAAAOMwVOLWT9c3LEnLNsnLs_zFyLCBheEVCy8XRDTF3MisMBfBzy6Mz0jPe8XCx8UD4heUpyUVViUlv2Lh5uLUz9U3MDIzLkpGKM8oyzCJT0fwIZa8YuHn4gXxDdOT00yKTbLzkCzMS0uvKoGbZ5aTllbwioWLiwPESzHLKVjEKhFQlJ-Vmlyi4JGfm5qTWlys4JyflwcUuMUmybB7UcdPFtf9hhstjTduEnu8nf2X-9_atBkrF3GIBaTmF-SkKiTmFOcrFKcmFiVnKKTlF63gYAQAv5UbQwQBAAA"
+                }
+            ]
+        },
+        {
+            "block_position": 1,
+            "query": "youth homeless shelters near san jose, ca",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=youth+homeless+shelters+near+san+jose,+ca&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhtEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=youth+homeless+shelters+near+san+jose%2C+ca"
+        },
+        {
+            "block_position": 1,
+            "query": "Youth homeless shelters near me volunteer",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Youth+homeless+shelters+near+me+volunteer&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhnEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+homeless+shelters+near+me+volunteer"
+        },
+        {
+            "block_position": 1,
+            "query": "Free youth homeless shelters near me",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Free+youth+homeless+shelters+near+me&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhuEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Free+youth+homeless+shelters+near+me"
+        },
+        {
+            "block_position": 1,
+            "query": "Youth shelter Oakland",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Youth+shelter+Oakland&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhrEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+shelter+Oakland"
+        },
+        {
+            "block_position": 1,
+            "query": "Youth shelters San Francisco",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Youth+shelters+San+Francisco&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhqEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+shelters+San+Francisco"
+        },
+        {
+            "block_position": 1,
+            "query": "Diamond Youth Shelter",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Diamond+Youth+Shelter&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhmEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Diamond+Youth+Shelter"
+        },
+        {
+            "block_position": 1,
+            "query": "San Francisco Homeless shelters",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=San+Francisco+Homeless+shelters&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhpEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=San+Francisco+Homeless+shelters"
+        },
+        {
+            "block_position": 1,
+            "query": "Geary House San Francisco",
+            "link": "https://www.google.com/search?sca_esv=ea796d5874e27d32&hl=en&gl=us&q=Geary+House+San+Francisco&sa=X&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q1QJ6BAhoEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Geary+House+San+Francisco"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=10&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8NMDegQICxAW",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=10&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAE",
+            "3": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=20&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAG",
+            "4": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=30&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAI",
+            "5": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=40&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAK",
+            "6": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=50&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAM",
+            "7": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=60&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAO",
+            "8": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=70&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAQ",
+            "9": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=80&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAS",
+            "10": "https://www.google.com/search?q=Youth+Homeless+Shelters+near+me&sca_esv=ea796d5874e27d32&hl=en&gl=us&ei=vrYPaf-AGr2f4-EPh7K76QY&start=90&sa=N&sstk=Af77f_erLjn8ZXU0bvq-uwkIratIwld2qY0R2-YwgCp5a3UeYY6sJBX-uNW2YJKtvCICsyOKJLfoJ14h4K8KebWvrFPXYPg72OWArQ&ved=2ahUKEwj_18yxwOOQAxW9zzgGHQfZLm0Q8tMDegQICxAU"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=10",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=20",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=30",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=40",
+            "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=50",
+            "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=60",
+            "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=70",
+            "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=80",
+            "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Francisco%2C+California%2C+United+States&q=Youth+Homeless+Shelters+near+me&start=90"
+        }
+    }
+}
