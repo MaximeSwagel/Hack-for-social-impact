@@ -216,3 +216,6 @@ deep-research/answer.md
 # Generated reports
 report.md
 answer.md
+
+# env
+.env
