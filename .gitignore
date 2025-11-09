@@ -206,5 +206,16 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Node.js (deep-research)
+deep-research/node_modules/
+deep-research/.env.local
+deep-research/package-lock.json
+deep-research/report.md
+deep-research/answer.md
+
+# Generated reports
+report.md
+answer.md
+
 # env
 .env

@@ -1,0 +1,3 @@
+[submodule "deep-research"]
+	path = deep-research
+	url = https://github.com/dzhng/deep-research.git
