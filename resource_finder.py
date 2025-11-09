@@ -91,7 +91,7 @@ def call_deep_research(query: str, breadth: int = 1, depth: int = 2) -> str:
                 "depth": depth
             },
             headers={"Content-Type": "application/json"},
-            timeout=300  # 5 minute timeout for research
+            timeout=600  # 10 minute timeout for research
         )
 
         response.raise_for_status()

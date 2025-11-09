@@ -9,7 +9,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from resource_finder import list_eligible_resources
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -43,6 +43,14 @@ app.add_middleware(
     allow_headers=["*"], # Allow all headers
 )
 
+chat_history: Dict[str, List[Dict[str, str]]] = {"messages": []}
+
+def search_eligible_resources(conversation_history: List[Dict[str, str]] = None,
+                           breadth: int = 1,
+                           depth: int = 2) -> str:
+    history = conversation_history or chat_history["messages"]
+    return list_eligible_resources(history, breadth=breadth, depth=depth)
+
 class ChatInput(BaseModel):
     user_message: str
 
@@ -51,7 +59,7 @@ TOOLS = [
     {
         "type": "function",
         "function": {
-            "name": "list_eligible_resources",
+            "name": "search_eligible_resources",
             "description": "Return a curated list of local homeless youth housing/resources.",
             "parameters": {
                 "type": "object",
@@ -65,7 +73,7 @@ TOOLS = [
 
 # Map tool name -> Python function
 TOOL_IMPLS: Dict[str, Any] = {
-    "list_eligible_resources": list_eligible_resources,
+    "search_eligible_resources": search_eligible_resources,
 }
 
 @app.post("/chat")
@@ -78,6 +86,7 @@ async def chat_with_ai(input_data: ChatInput):
                 "content": input_data.user_message
             },
         ]
+        chat_history["messages"].append({"role": "user", "content": input_data.user_message})
 
         # 1) Ask the model, advertising the tool
         resp = client.chat.completions.create(
@@ -119,9 +128,15 @@ async def chat_with_ai(input_data: ChatInput):
                 messages=messages,
             )
             final_text = resp2.choices[0].message.content
+            chat_history["messages"].append(
+                {"role": "assistant", "content": final_text or ""}
+            )
             return {"bot_response": final_text}
 
         # No tool call: just return the model’s text
+        chat_history["messages"].append(
+            {"role": "assistant", "content": msg.content or ""}
+        )
         return {"bot_response": msg.content}
 
     except Exception as e:
