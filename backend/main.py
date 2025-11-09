@@ -1,3 +1,4 @@
+import json
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -33,6 +34,20 @@ app.add_middleware(
 class ChatInput(BaseModel):
     user_message: str
 
+
+def listall():
+    """Temporary placeholder until the tool is fully implemented."""
+    return {
+        "providers": [
+            {
+                "name": "Example Transitional Housing",
+                "website": "https://example.org",
+                "description": "Placeholder response from listall().",
+            }
+        ]
+    }
+
+
 # --- 4. Create API Endpoints ---
 @app.get("/")
 async def health_check():
@@ -43,16 +58,47 @@ async def health_check():
 async def chat_with_ai(input_data: ChatInput):
     """The main endpoint to handle chat interactions."""
     try:
-        # Forward the user's message to the OpenAI API
-        completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
+        tools = [
+            {
+                "type": "function",
+                "function": {
+                    "name": "listall",
+                    "description": "Return SF homeless youth housing resources.",
+                    "parameters": {"type": "object"},
+                },
+            }
+        ]
+
+        response = client.responses.create(
+            model="gpt-4o-mini",
+            input=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": input_data.user_message},
             ],
+            tools=tools,
         )
-        # Extract and return the AI's response
-        bot_response = completion.choices[0].message.content
+
+        while getattr(response, "required_action", None):
+            tool_calls = response.required_action.submit_tool_outputs.tool_calls
+            outputs = []
+
+            for call in tool_calls:
+                if call.function.name != "listall":
+                    raise ValueError(f"Unsupported tool: {call.function.name}")
+
+                outputs.append(
+                    {
+                        "tool_call_id": call.id,
+                        "output": json.dumps(listall()),
+                    }
+                )
+
+            response = client.responses.submit_tool_outputs(
+                response_id=response.id,
+                tool_outputs=outputs,
+            )
+
+        bot_response = response.output[0].content[0].text.value.strip()
         return {"bot_response": bot_response}
 
     except Exception as e:
