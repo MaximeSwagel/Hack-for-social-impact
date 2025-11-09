@@ -1,75 +1,44 @@
 # Quick Start Guide
 
-## Single .env File Setup
-
-All configuration is now in one place: **`.env`** in the root directory.
-
-### Current Configuration
-
-Your `.env` file contains:
+## 0. One `.env` to rule them all
+Place your keys in the root-level `.env`:
 ```
-OPENAI_API_KEY=sk-proj-...
-FIRECRAWL_KEY=fc-4e38...
+OPENAI_API_KEY=sk-proj-***
+FIRECRAWL_KEY=fc-***
 DEEP_RESEARCH_API_URL=http://localhost:3051
 ```
+`start_api.py` reads this file and boots the Node worker without any per-package env files.
 
-### How It Works
-
-The `start_api.py` script:
-1. Loads variables from root `.env` file
-2. Passes them to the deep-research Node.js process
-3. No need for `deep-research/.env.local` anymore!
-
-## Running the System
-
-### Step 1: Start the API Server
-
+## 1. Install dependencies (one time)
 ```bash
-python start_api.py
+cd deep-research && npm install && cd ..
+cd chatbot-frontend && npm install && cd ..
+uv sync
 ```
 
-This will:
-- Load your API keys from `.env`
-- Start the deep-research API on port 3051
-- Keep running until you press Ctrl+C
+## 2. Run the services (three terminals)
+1. **Deep Research worker**
+   ```bash
+   uv run python start_api.py
+   ```
+2. **Backend API**
+   ```bash
+   cd backend
+   uv run uvicorn main:app --reload
+   ```
+3. **Chatbot frontend**
+   ```bash
+   cd chatbot-frontend
+   npm run dev
+   ```
 
-### Step 2: Test the Resource Finder
-
-In another terminal:
-
+## 3. Smoke test the Python helper
 ```bash
-python resource_finder.py
+uv run python resource_finder.py
 ```
+or import `list_eligible_resources` inside your chatbot runtime.
 
-Or use it in your code:
-
-```python
-from resource_finder import list_eligible_resources
-
-conversation = [
-    {"role": "user", "content": "I need shelter in San Francisco"},
-    {"role": "user", "content": "I'm 19 and LGBTQ"}
-]
-
-report = list_eligible_resources(conversation)
-print(report)
-```
-
-## Files Created
-
-- **`start_api.py`** - Starts deep-research API using root .env
-- **`test_setup.py`** - Verifies your .env configuration
-- **`resource_finder.py`** - Main function for chatbot integration
-- **`.env`** - Single source of truth for all API keys
-
-## Removed
-
-- ~~`deep-research/.env.local`~~ - No longer needed!
-
-## Verify Setup
-
-```bash
-python test_setup.py
-```
-
-Should show all green checkmarks ✓
+## Files to know
+- `start_api.py` — launches deep-research with env injection.
+- `resource_finder.py` — callable helper used by the chatbot backend.
+- `.env` — single source of truth for secret config.

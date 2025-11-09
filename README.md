@@ -1,28 +1,23 @@
 # Hack-for-social-impact
-AI powered care platform for youth homelessness
+AI-powered care platform for youth experiencing homelessness.
 
 ## Homeless Resource Chatbot
+Discovers, classifies, and surfaces trusted housing resources for San Francisco youth while collecting structured metadata for downstream intake workflows.
 
-An AI-powered chatbot that helps homeless individuals discover and connect to resources they may be eligible for.
+## System Overview
+- **`deep-research/`** — Node.js worker that performs Firecrawl-powered searches.
+- **`start_api.py`** — Python launcher that boots the deep-research API with the correct env vars.
+- **`backend/`** — FastAPI service that exposes research endpoints to the chatbot.
+- **`chatbot-frontend/`** — Web client for chat + resource exploration.
+- **`resource_finder.py`** — Python helper that can be imported directly into other bots/tools.
 
-## Setup
+## Prerequisites
+- Node.js 18+ and npm
+- Python 3.11+ with [uv](https://docs.astral.sh/uv/) installed (`pip install uv`)
+- Firecrawl + OpenAI API keys
 
-### 1. Install Dependencies
-
-#### Deep-Research (Node.js)
-```bash
-cd deep-research
-npm install
-```
-
-#### Python Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Configure API Keys
-
-Create a `.env` file in the root directory with your API keys:
+## Environment Configuration
+All services read from a single root `.env`. Create it with:
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key
@@ -30,22 +25,40 @@ FIRECRAWL_KEY=your_firecrawl_api_key
 DEEP_RESEARCH_API_URL=http://localhost:3051
 ```
 
-That's it! No need to configure multiple env files.
+No additional `.env.local` files are required in subprojects.
 
-### 3. Start Deep-Research API Server
+## Install Dependencies
+Run each once after cloning:
 
-In one terminal, start the deep-research API server using the Python startup script:
 ```bash
-python start_api.py
+cd deep-research && npm install && cd ..
+cd chatbot-frontend && npm install && cd ..
+uv sync  # installs Python dependencies declared in pyproject.toml
 ```
 
-Or if you prefer to start it directly with npm (you'll need to set env vars manually):
-```bash
-cd deep-research
-OPENAI_KEY=$OPENAI_API_KEY FIRECRAWL_KEY=$FIRECRAWL_KEY npm run api
-```
+## Run the Stack
+Use separate terminals for each long-running service.
 
-The server will run on http://localhost:3051
+### 1. Deep-Research API
+```bash
+# (from repo root, after installing dependencies)
+uv run python start_api.py
+```
+This loads keys from `.env` and launches the Node worker on `http://localhost:3051`.
+
+### 2. Backend API
+```bash
+cd backend
+uv run uvicorn main:app --reload
+```
+Serves the FastAPI app (defaults to `http://127.0.0.1:8000`).
+
+### 3. Chatbot Frontend
+```bash
+cd chatbot-frontend
+npm run dev
+```
+Starts the dev server (usually `http://localhost:5173`).
 
 ## Usage
 
@@ -69,7 +82,7 @@ print(report)
 ### Test the Example
 
 ```bash
-python resource_finder.py
+uv run python resource_finder.py
 ```
 
 ## Function Reference

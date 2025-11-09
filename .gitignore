@@ -206,12 +206,31 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Node.js (deep-research)
-deep-research/node_modules/
+# Node.js artifacts
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn.lock.backup
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.backup
+*.tsbuildinfo
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.parcel-cache/
+.vercel/
+.cache/
+dist/
+build/
+
+# Project-specific Node outputs
 deep-research/.env.local
-deep-research/package-lock.json
 deep-research/report.md
 deep-research/answer.md
+chatbot-frontend/.env.local
+chatbot-frontend/.next/
 
 # Generated reports
 report.md

@@ -70,7 +70,7 @@ Return ONLY the search query, nothing else."""
         raise Exception(f"Failed to extract search query: {str(e)}")
 
 
-def call_deep_research(query: str, breadth: int = 4, depth: int = 2) -> str:
+def call_deep_research(query: str, breadth: int = 1, depth: int = 2) -> str:
     """
     Calls the deep-research API to generate a comprehensive resource report.
 
@@ -111,7 +111,7 @@ def call_deep_research(query: str, breadth: int = 4, depth: int = 2) -> str:
 
 
 def list_eligible_resources(conversation_history: List[Dict[str, str]],
-                           breadth: int = 4,
+                           breadth: int = 1,
                            depth: int = 2) -> str:
     """
     Main function to discover and list eligible resources for homeless individuals.
@@ -175,7 +175,7 @@ if __name__ == "__main__":
     ]
 
     try:
-        report = list_eligible_resources(example_conversation, breadth=3, depth=1)
+        report = list_eligible_resources(example_conversation)
         print("\n" + "="*80)
         print("RESOURCE REPORT")
         print("="*80)

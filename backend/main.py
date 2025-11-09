@@ -1,11 +1,15 @@
 import json
 import logging
 import os
+import sys
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from openai import OpenAI
 from dotenv import load_dotenv
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from resource_finder import list_eligible_resources
+from typing import Dict, Any
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -39,46 +43,87 @@ app.add_middleware(
     allow_headers=["*"], # Allow all headers
 )
 
-# --- 3. Define the Request Data Structure ---
-# Pydantic model ensures the incoming data has the correct format.
 class ChatInput(BaseModel):
     user_message: str
 
-
-def listall():
-    """Temporary placeholder until the tool is fully implemented."""
-    return {
-        "providers": [
-            {
-                "name": "Example Transitional Housing",
-                "website": "https://example.org",
-                "description": "Placeholder response from listall().",
-            }
-        ]
+# Tool schema for OpenAI
+TOOLS = [
+    {
+        "type": "function",
+        "function": {
+            "name": "list_eligible_resources",
+            "description": "Return a curated list of local homeless youth housing/resources.",
+            "parameters": {
+                "type": "object",
+                "properties": {},        # no args
+                "required": [],
+                "additionalProperties": False,
+            },
+        },
     }
+]
 
-# --- 4. Create API Endpoints ---
-@app.get("/")
-async def health_check():
-    """A simple endpoint to confirm the server is running."""
-    return {"status": "ok"}
+# Map tool name -> Python function
+TOOL_IMPLS: Dict[str, Any] = {
+    "list_eligible_resources": list_eligible_resources,
+}
 
 @app.post("/chat")
 async def chat_with_ai(input_data: ChatInput):
-    """The main endpoint to handle chat interactions."""
     try:
-        # Forward the user's message to the OpenAI API
-        completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": input_data.user_message},
-            ],
+        messages = [
+            {"role": "system", "content": "You are a helpful assistant."},
+            {
+                "role": "user",
+                "content": input_data.user_message
+            },
+        ]
+
+        # 1) Ask the model, advertising the tool
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",  # supports tool calling; use your preferred model
+            messages=messages,
+            tools=TOOLS,
+            tool_choice="auto",   # let the model decide
+            temperature=0.2,
         )
-        # Extract and return the AI's response
-        bot_response = completion.choices[0].message.content
-        return {"bot_response": bot_response}
+
+        msg = resp.choices[0].message
+
+        # 2) If the model wants to call tools, execute them and continue the loop once
+        if getattr(msg, "tool_calls", None):
+            messages.append({"role": "assistant", "content": msg.content or "", "tool_calls": [tc.model_dump() for tc in msg.tool_calls]})
+
+            for tc in msg.tool_calls:
+                name = tc.function.name
+                args = tc.function.arguments
+                # Parse args if any (ours has none)
+                parsed = json.loads(args) if (args and args.strip()) else {}
+
+                if name not in TOOL_IMPLS:
+                    raise HTTPException(status_code=500, detail=f"Unknown tool requested: {name}")
+
+                result = TOOL_IMPLS[name](**parsed) if parsed else TOOL_IMPLS[name]()
+
+                # 3) Return the tool result back to the model
+                messages.append({
+                    "role": "tool",
+                    "tool_call_id": tc.id,
+                    "name": name,
+                    "content": json.dumps(result),
+                })
+
+            # 4) Ask the model again for the final user-facing answer
+            resp2 = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=messages,
+            )
+            final_text = resp2.choices[0].message.content
+            return {"bot_response": final_text}
+
+        # No tool call: just return the model’s text
+        return {"bot_response": msg.content}
 
     except Exception as e:
-        # Properly handle potential API errors
+        logger.error(f"Error in /chat endpoint: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
